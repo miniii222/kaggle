@@ -8,7 +8,7 @@
 - [2019-01-22] [EDA](https://github.com/miniii222/kaggle/tree/master/Elo_Merchant_Category_Recommendation/eda) train,test, transaction data
 - [2019-01-23] EDA transaction, merchant data
 - [2019-01-28] EDA data간 관계 살피기. base_line model RMSE(Elastic_net : 3.928 lightGBM : 3.905)
-  
+- [2019-01-31] NA처리 및 oulier
 
 
 2. 책
