@@ -5,8 +5,8 @@
 - installments -999 -> category3 C (역은 성립 x)
 
 ### new feature
-1. authorized_count : 승인 수
-2. authorized_count : 비승인 수
+1. authorized : 승인 수
+2. not_authorized : 비승인 수
 3. authorized_rate : 승인/ 비승인
 
 ### new data
