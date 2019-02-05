@@ -1,6 +1,6 @@
 # https://www.kaggle.com/c/elo-merchant-category-recommendation
 
-## historical_transactions
+## historical_transactions -> sorted_history (card_id, purchase_date로 sorting)
 - category3가 B = installments 가 다 1
 - installments -999 -> category3 C (역은 성립 x)
 ### new data
