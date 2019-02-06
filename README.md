@@ -7,4 +7,4 @@
 
 
 
-2. 책 : 머신러닝 탐구생활
+2. [머신러닝 탐구생활](https://github.com/miniii222/kaggle/tree/master/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D_%ED%83%90%EA%B5%AC%EC%83%9D%ED%99%9C) 
