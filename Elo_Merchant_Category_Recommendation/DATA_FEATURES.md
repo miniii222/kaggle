@@ -23,7 +23,7 @@
 
 ## historical_transactions
 - merchant_id 가 key인데 왜 여러개가 존재하냐 
-
+- transaction merchant_id가 merchant에 있는 merchant_id보다 
 
 ### new data
 #### history_inner - installments = -999인 card_id, merchant_id 만 뽑아서 
