@@ -7,6 +7,8 @@
 - [2019-01-31] NA처리 및 oulier
 - [2019-02-05] New Feature -> RMSE(Elastic_net : 3.866 lightGBM : 3.811)
 - [2019-02-06] New Feature -> RMSE(Elastic_net : 3.866 lightGBM : 3.771)
+- [2019-02-10] merchant 데이터로 feature 생성
+
 
 ## historical_transactions+new_merchant_transactions -> sorted_history (card_id, purchase_date로 sorting)
 - category3가 B = installments 가 다 1
@@ -20,6 +22,7 @@
 4. merchant_visit : 같은 가게 다른 날 여러 번 방문 횟수 -> "sum", "mean", "min", "max",'nunique','size',mode
 5. merchant_try : 같은 가게 같은 날 여러 번 결제 시도 ->  "mean", "std", "min", "max",'nunique','size',mode
 6. Ref_Date : 2017-01-01로부터 결제일 며칠 -> "mean", "std", "min", "max",'nunique','size',mode
+7. 위치 관련 변수들 mode로 생성 ('city_id','state_id','subsector_id','category_2')
 
 ## historical_transactions
 - merchant_id 가 key인데 왜 여러개가 존재하냐 
