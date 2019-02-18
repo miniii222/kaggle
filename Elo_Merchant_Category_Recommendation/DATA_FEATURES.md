@@ -30,6 +30,8 @@
 5. merchant_try : 같은 가게 같은 날 여러 번 결제 시도 ->  "mean", "std", "min", "max",'nunique','size',mode
 6. Ref_Date : 2017-01-01로부터 결제일 며칠 -> "mean", "std", "min", "max",'nunique','size',mode
 7. 위치 관련 변수들 mode로 생성 ('city_id','state_id','subsector_id','category_2')
+8. category3 으로 만든 변수 망함!
+9. 총 산 물건 양 / 들른 가게 
 
 ## historical_transactions
 - merchant_id 가 key인데 왜 여러개가 존재하냐 
