@@ -8,12 +8,19 @@
 - [2019-02-05] New Feature -> RMSE(Elastic_net : 3.866 lightGBM : 3.811)
 - [2019-02-06] New Feature -> RMSE(Elastic_net : 3.866 lightGBM : 3.771)
 - [2019-02-10] merchant 데이터로 feature 생성
+- [2019-02-17] target outlier (-33... 값 잡으려 했으나 실패...)
+- [2019-02-18] feature 더 뽑아보자!
+
 
 
 ## historical_transactions+new_merchant_transactions -> sorted_history (card_id, purchase_date로 sorting)
 - category3가 B = installments 가 다 1
 - installments -999 -> category3 C (역은 성립 x), 승인 난 경우도 있음
-
+#### category3 과 installments의 관계
+- category3 = A : installments = 0 (할부 x - 체크카드든 뭐든..)
+- category3 = B : installments = 1 (할부 x)
+- category3 = C : installments = 2,3,...999 (할부 ㅇ)
+- category3 = NA : installmenst = -1(NA)
 
 ### new feature
 1. authorized : 승인 수
