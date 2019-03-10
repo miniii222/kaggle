@@ -46,3 +46,6 @@
 #### history_inner - installments = -999인 card_id, merchant_id 만 뽑아서 
 #### category2_null : category2 가 null인 데이터
 
+## 결과
+#### 상위 5% 은메달!
+![](https://github.com/miniii222/kaggle_competition/blob/master/Elo_Merchant_Category_Recommendation/ranking.JPG "elo")
